@@ -84,7 +84,7 @@ const ChatBot = () => {
 
     return (
         <View style={styles.container}>
-            <Text style={styles.title}>Gemini Pro ChatBot</Text>
+            <Text style={styles.title}>Chamod AI ChatBot</Text>
 
             <FlatList
                 data={chat}
@@ -116,6 +116,7 @@ const ChatBot = () => {
 
 const styles = StyleSheet.create({
     container: {
+        minWidth: "95%",
         flex: 1,
         backgroundColor: "#f8f8f8",
         padding: 16,
@@ -156,6 +157,8 @@ const styles = StyleSheet.create({
     buttonText: {
         color: "#fff",
         textAlign: "center",
+        fontWeight: "bold",
+        fontSize: 14,
     },
     loading: {
         marginTop: 10,
