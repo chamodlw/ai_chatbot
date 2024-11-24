@@ -19,10 +19,16 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/icon1.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.chamodweerasinghe.chat"
     },
     "web": {
       "favicon": "./assets/icon1.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "d76c91a4-7c69-433b-853c-c2693623736a"
+      }
     }
   }
 }

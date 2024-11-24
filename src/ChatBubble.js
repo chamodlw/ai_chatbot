@@ -23,7 +23,7 @@ const ChatBubble = ({ role, parts , onSpeech }) => {
 
 const styles = StyleSheet.create({
     chatItem: {
-        minWidth: "15%",
+        minWidth: "75%",
         marginVertical: 8,
         padding: 10,
         borderRadius: 8,
@@ -34,7 +34,6 @@ const styles = StyleSheet.create({
     },
     modelChatItem: {
         backgroundColor: "#f0f0f0",
-        alignSelf: "flex-start",
     },
     chatText: {
         fontSize: 16,
